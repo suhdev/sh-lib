@@ -1,5 +1,5 @@
 'use strict';
-var Strings = require('../src/strings');
+var Strings = require('../lib/strings');
 describe('Test',function(){
 
   it('Should replace text an array',function(){
@@ -24,4 +24,7 @@ describe('Test',function(){
     expect(Strings.isString([1,2,3,4])).toEqual(false);
   });
 
+  it('Should check if google data', function(){
+
+  });
 });

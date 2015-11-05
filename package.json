@@ -1,6 +1,6 @@
 {
   "name": "sh-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of utility ES6 classes for NodeJS applications",
   "main": "index.js",
   "scripts": {
