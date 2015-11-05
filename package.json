@@ -1,0 +1,30 @@
+{
+  "name": "sh-lib",
+  "version": "1.0.0",
+  "description": "A set of utility ES6 classes for NodeJS applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhdev/sh-lib.git"
+  },
+  "keywords": [
+    "ES6",
+    "utility",
+    "utility",
+    "libraries",
+    "localization"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/sh-lib/issues"
+  },
+  "homepage": "https://github.com/suhdev/sh-lib#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jasmine-spec-reporter": "^2.4.0"
+  }
+}
