@@ -26,5 +26,20 @@
   "devDependencies": {
     "jasmine": "^2.3.2",
     "jasmine-spec-reporter": "^2.4.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "d3": "github:mbostock/d3@^3.5.8",
+      "events": "github:jspm/nodelibs-events@^0.1.1",
+      "jquery": "github:components/jquery@^2.1.4",
+      "lodash": "npm:lodash@^3.10.1",
+      "react": "npm:react@^0.14.2",
+      "react-dom": "npm:react-dom@^0.14.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }

@@ -1,0 +1,46 @@
+@import "partials/base";
+@import "partials/icons";
+$toolbar-bg-color:#444;
+$toolbar-fg-color:#fff;
+.shui-toolbar{
+	background-color:$toolbar-bg-color;
+	color:$toolbar-fg-color;
+
+	.shui-toolbar-button{
+		@extend %box;
+		@extend %button;
+		float:left;
+		height: 44px;
+	    width: 44px;
+	    line-height: 44px;
+	    padding-top: 2px;
+	    font-size: 25px;
+	    text-align: center;
+
+		&:hover,&[data-pressed="true"]{
+			background-color: lighten($toolbar-bg-color,10%);
+		}
+
+
+	}
+
+	.shui-toolbar-separator{
+		@extend %box;
+		float:left;
+		height:38px;
+		margin-left:2px;
+		margin-right:2px;
+		margin-top:3px;
+		width:1px;
+		background-color: #bbb;
+		-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+		box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+
+	}
+
+	&:after,&:before{
+		display:table;
+		content:' ';
+		clear:both;
+	}
+}
